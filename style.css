@@ -1,0 +1,282 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+header{
+    width: 100%;
+    height: 100vh;
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,27,23,0.2358193277310925) 100%), url("https://tickernews.co/wp-content/uploads/2023/02/Netflix-ad-tier-strategy-not-up-to-company-expectations.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+      background-color: gray;
+      }
+
+nav img{
+    width: 350px;
+    padding-left: 10%;
+    
+}
+.nav-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+nav span{
+    width: 30%;
+    height:auto;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 40px; */
+    /* padding-left: 60%;    */
+    
+    
+}
+
+.contanier{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eng-btn{
+    padding: 5px;
+    padding-inline: 20px;
+    border: white solid 1px;
+    color: white;
+    border-radius: 2px;
+    background-color: transparent;
+}
+.sign{
+    
+    padding: 5px;
+    padding-inline: 15px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+
+}
+div h1{
+    text-align: center;
+    color: white;
+    font-weight: 400px;
+    font-size: 50px;
+           font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 100px;
+        font-style: normal;
+        font-variation-settings:
+          "wdth" 100;
+      
+      
+    
+    
+}
+div h3{
+    color: white;
+    margin-top: 7px;
+    font-weight: 400px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+}
+div p{
+    color: white;
+    margin-top: 7px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+
+}
+.btn{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+.contanier1{
+    margin-top: 10px;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.contanier1 div{
+    width: 40%;
+    height: auto;
+    border: 2px solid;
+}
+.contanier2{
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    
+}
+.contanier2 div{
+    width: 60%;
+    background-color: grey;
+    height: 80px;
+    color: white;
+    font-size: larger;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 10px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+span input{
+    padding: 15px;
+    padding-inline: 30px;
+    margin: 5px;
+    border: none;
+    border-radius: 2px;
+    background-color: black;
+    color: grey;
+    border: 1px grey solid;
+}
+span button{
+    padding: 15px;
+    padding-inline: 20px;
+    margin: 5px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    
+}
+
+@media screen and (max-width: 768px){
+    header{
+        width: 100%;
+        height: auto;
+    }
+    .nav-section{
+        width: 100%;
+        height: 70px;
+    }
+    
+    
+    .logo{
+        width: 40%;
+        height: auto;
+    }
+    nav span button{
+        padding: 5px 10px;
+        margin-top: 25px;
+    }
+
+    .eng-btn{
+        padding: 4px 8px;
+        
+    }
+    .contanier h1{
+        font-size: 25px;
+        padding: 20px;
+    }
+    .contanier{
+        width: 100%;
+        height: auto;
+    }
+    .contanier h3{
+        font-size: 19px;
+        padding: 15px;
+    }
+    .contanier p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .contanier span{
+        padding: 32px;
+    
+
+    }
+    .contanier1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: auto;
+    }
+    .right{
+        width: 100%;
+        height: auto;
+    }
+    .right img{
+        width: 100%;
+    }
+    .left img{
+        width: 100%;
+    }
+    .contanier1 h1{
+        font-size: 25px;   
+    }
+    .contanier1 h3{
+        font-size: 20px
+        
+     }
+    .contanier2 h1{
+        font-size: 30px;
+        padding: 16px;
+
+    } 
+    .contanier2 div{
+        width: 70%;
+        height: 55px;
+        padding-inline: 33px;
+
+    }
+    .contanier2 h3{
+        font-size: 20px;
+    }
+    .contanier2 span{
+        padding: 32px;
+    
+
+    }
+    .left h3 br{
+        display: none;
+
+    }
+   .contanier div{
+    width: 100%;
+   }
+   .contanier1 div{
+    width: 100%;
+   }
+   .contanier2 div{
+    width: 100%;
+   }
+}
